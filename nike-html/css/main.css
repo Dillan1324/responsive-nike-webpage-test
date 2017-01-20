@@ -1,0 +1,301 @@
+    @font-face {
+    font-family: 'Futura-CondensedExtraBold';
+    src: url('../fonts/Futura-Condensed/Futura-CondensedExtraBold.eot?#iefix') format('embedded-opentype'), url('../fonts/Futura-Condensed/Futura-CondensedExtraBold.woff') format('woff'), url('../fonts/Futura-Condensed/Futura-CondensedExtraBold.ttf') format('truetype'), url('../fonts/Futura-Condensed/Futura-CondensedExtraBold.svg#svgFontName') format('svg');
+}
+
+@font-face {
+    font-family: 'Futura-CondensedMedium';
+    src: url('../fonts/Futura-Condensed/Futura-CondensedMedium.eot?#iefix') format('embedded-opentype'), url('../font/Futura-Condensed/Futura-CondensedMedium.woff') format('woff'), url('Futura-CondensedMedium.ttf') format('truetype'), url('../fonts/Futura-Condensed/Futura-CondensedMedium.svg#svgFontName') format('svg');
+}
+
+@font-face {
+    font-family: 'Helvetica-Light';
+    src: url('../fonts/Helvetica-Light/Helvetica-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Helvetica-Light/Helvetica-Light.woff') format('woff'), url('../fonts/Helvetica-Light/Helvetica-Light-5874ee8b80337.ttf') format('truetype'), url('../fonts/Helvetica-Light/Helvetica-Light.svg#svgFontName') format('svg');
+}
+
+h1 {
+    font-family: "Futura-CondensedExtraBold";
+}
+
+h2 {
+    font-family: "Futura-CondensedExtraBold";
+}
+
+h5 {
+    font-family: "Futura-CondensedExtraBold";
+}
+
+p {
+    font-family: "Helvetica-Light";
+}
+
+a {
+    font-family: "Futura-CondensedExtraBold";
+}
+
+@media all and ( min-width: 270px) {
+   
+    .header {
+background-image: url(../images/resize.jpg);
+background-size: cover;
+}
+
+.slide-copy {
+padding: 65% 5% 5%;
+}
+
+.slide-copy h1 {
+text-transform: uppercase;
+    font-size: 20px;
+    top: 165px;
+    margin-left: 45px;
+    color: #ffffff;
+    
+}
+
+.slide-copy p {
+font-size: 13px;
+color: #ffffff;
+line-height: 1.5;
+}
+
+
+
+
+ .title {
+        padding: 10% 5% 5%;
+    }
+    .title h2 {
+        text-transform: uppercase;
+        color: #000000;
+        text-align: center;
+    }
+    .title p {
+        font-size: 12px;
+        color: #000000;
+        line-height: 1.5;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .nike-showcase a{
+
+        text-decoration: none;
+      
+            }
+
+
+    .nike-showcase a:nth-child(1),
+    .nike-showcase a:nth-child(3) {
+        display: none;
+    }
+    .nike-showcase h5
+    {
+        text-align: center;
+        color: #000000;
+        text-transform: uppercase;
+
+      
+    }
+.nike-showcase p
+    {
+        text-align: center;
+        color: #000000;
+
+      
+    }
+     
+
+     .shop-showcase a{
+
+        text-decoration: none;
+            }
+
+    .shop-showcase a:nth-child(1),
+    .shop-showcase a:nth-child(3) {
+        display: none;
+    }
+    .shop-showcase h5    {
+        text-align: center;
+        color: #000000;
+        text-transform: uppercase;
+        
+    }
+
+    .shop-showcase p
+    {
+        text-align: center;
+        color: #000000;
+}
+
+a:hover{
+    text-decoration: none;
+}
+    .shop-link a {
+        text-decoration: none;
+        margin-bottom: 50px;
+        height: 40px;
+        color: #000000;
+        display: block;
+        text-align: center;
+        border: 2px solid #000;
+        padding: 20
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
+
+
+
+
+
+.footer {
+background-image: url(../images/footer2.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 500px;
+}
+    .footer-elements {
+text-align: center;
+padding-top: 110px;
+}
+
+.logo {
+margin-bottom: 30px;
+}
+
+.social-links {
+margin-bottom: 30px;
+}
+
+
+.navigation-link a {
+font-size: 20px;
+color: #ffffff;
+text-decoration: none;
+text-transform: uppercase;
+}
+    @media screen and (min-width: 600px) {
+        .header {
+    background-image: url(../images/header.jpg);
+    background-position: top right;
+    height: 500px;
+    position: relative;
+    width: 100%;
+}
+.slide-copy {
+    position: absolute;
+    bottom: 35%;
+    left: 5%;
+    padding: 0;
+    max-width: 350px;
+}
+
+.slide-copy h1 {
+text-transform: uppercase;
+color: #ffffff;
+font-size: 35px;
+margin: 0;
+}
+        a {
+            text-align: center;
+            display: inline-block;
+            margin-top: 10px;
+            padding: 28px;
+            margin-right: 10px;
+        }
+
+.title {
+           padding: 0% 33% 0%
+    }
+    .title h2 {
+        text-transform: uppercase;
+        color: #000000;
+        text-align: center;
+    margin-right: : 100px;
+    font-size: 45px;
+    margin-top: 50px;
+    margin-right: 72px;
+    margin-left: 29px;
+    }
+    .title p {
+            font-size: 14px;
+    color: #000000;
+    
+    margin: 10px;
+    margin-right: : 100px;
+   
+    margin-right: 72px;
+    margin-left: 29px;
+    }
+
+    .nike-showcase a:nth-child(1),
+    .nike-showcase a:nth-child(3) {
+        display: inline-block;
+    }
+
+    .nike-showcase a  {
+        
+         padding: 55px;
+
+
+    }
+
+    .nike-showcase h5{
+        text-transform: uppercase;
+    }
+
+
+
+
+      
+    
+
+    .shop-showcase a{
+            padding: 70px;
+    }
+    .shop-showcase h5,
+     {
+        text-transform: uppercase;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 50px;
+        
+    }
+
+    .shop-showcase a:nth-child(1),
+    .shop-showcase a:nth-child(3) {
+        display: inline-block;
+    }
+  
+ .shop-link a {
+        text-decoration: none;
+        margin-bottom: 50px;
+        margin-left: 540px;
+        height: 4px;
+
+        width: 200px;
+        color: #000000;
+        display: block;
+        text-align: center;
+        border: 2px solid #000;
+        padding: 20
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
+
+
+        .footer {
+    background-image: url(../images/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+    }
+    
